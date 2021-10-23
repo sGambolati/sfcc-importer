@@ -9,7 +9,7 @@ export class Catalog {
      * AddProduct
      */
     public AddProduct(product: Product) {
-        
+        this.products.push(product);
     }
 
     /**
